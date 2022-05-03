@@ -87,4 +87,27 @@ header {
     width: 16px;
     height: 16px;
 }
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: none;
+    background-color: var(--main-text-color);
+    /*position: absolute;*/
+    height: 3px;
+    width: 24px;
+    margin-right: 10px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 12px;
+}
 </style>
