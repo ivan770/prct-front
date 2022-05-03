@@ -140,4 +140,38 @@ select, input {
     margin-top: 40px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 720px) {
+    .registration-form-image{
+        position: absolute;
+        max-width:
+    }
+
+    .form-card {
+        margin: 0 15px;
+        min-width: 345px;
+    }
+
+    .form-submit-button {
+        width: 280px;
+    }
+
+    .form-title {
+        font-size: 30px;
+        line-height: 36px;
+        min-width: 300px;
+    }
+    
+    .form-card {
+        z-index: 99;
+    }
+
+    .form-wrapper {
+        padding: 32px;
+    }
+
+    .registration-form-wrapper {
+        position: relative;
+    }
+}
 </style>

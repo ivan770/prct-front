@@ -110,4 +110,31 @@ header {
     content: '';
     margin-top: 12px;
 }
+
+@media screen and (max-width: 720px) {
+    .nav-bar-wrapper {
+        padding: 20px 15px;
+    }
+
+    .nav-menu-wrapper {
+        display: none;
+    }
+
+    .nav-logo-wrapper {
+        padding: 0;
+    }
+
+    .nav-logo {
+        left: 0;
+    }
+
+    .nav-title {
+        padding-left: 85px;
+    }
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+    }
+}
 </style>
