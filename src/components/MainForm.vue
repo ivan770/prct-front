@@ -2,9 +2,10 @@
     <div class="page-wrapper">
         <section class="registration-section">
             <div class="registration-form-wrapper">
-                <object
+                <img
+                    svg-inline
                     class="registration-form-image"
-                    type="image/svg+xml"
+                    src="@/assets/Uran.svg"
                 />
 
                 <div class="form-card flex-column">
@@ -68,11 +69,7 @@ export default {
 }
 
 .registration-form-image {
-    background-image: url("@/assets/Uran.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 624px;
-    width: 628px;
+    height: 100%;
 }
 
 .form-card {
@@ -144,7 +141,6 @@ select, input {
 @media screen and (max-width: 720px) {
     .registration-form-image{
         position: absolute;
-        max-width:
     }
 
     .form-card {
